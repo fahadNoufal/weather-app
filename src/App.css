@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: "Anybody", sans-serif;
+
+}
+.App{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background:no-repeat center url("../public/weather-bg.png") ;
+    background-size: cover;
+    color: white;
+}
+
+.details,.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.temp{
+    font-size: 8rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-family: "Anton", sans-serif;
+}
+
+.w-details{
+    display: flex;
+    gap: 5rem;
+}
+
+.info{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.date-time{
+    text-align: center;
+    margin: 0 0 1rem;
+}
+.weather-txt{
+    font-size: 2.4rem;
+    /* font-weight: 800; */
+    margin: 0.5rem 0 2rem;
+}
+
+.w-location{
+    font-size: 1.8rem;
+    margin: 2rem 0  0;
+    text-align: center;
+}
+
+.info .value{
+    font-size: 3rem;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.search-section{
+    text-align: center;
+    font-size: 1.4rem
+}
+
+.heading{
+    font-size: 3rem;
+    margin: -1rem;
+    margin-top: -5rem;
+    font-family: "Anton", sans-serif;
+}
+
+.search-box{
+    text-align: left;
+}
+
+.search-bar{
+    padding: 0.8rem 2rem;
+    padding-left: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.search-box input{
+    width: 380px;
+    border: none;   
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.search-box input::placeholder{
+    font-size: 1.1rem;
+}
+
+button{
+    background-color: rgb(24, 105, 255);
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 3rem;
+
+}
